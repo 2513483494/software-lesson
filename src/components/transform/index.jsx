@@ -9,7 +9,7 @@ function TransFile() {
     axios
       .get("http://localhost:8080/CopyFile", {
         params: {
-          sorceUrl: values.origin,
+          sourceUrl: values.origin,
           targetUrl: values.target,
         },
       })
